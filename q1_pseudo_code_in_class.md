@@ -1,6 +1,7 @@
 # Q1 Pseudo Code in Class
 
 PROMPT for type of tea
+
 GET tea type
 
 IF the tea is green tea
@@ -16,4 +17,4 @@ ELSE IF the tea is black tea
 ELSE
 > DISPLAY “I don’t recognize that tea.”
 
-ENDIF
+END IF
