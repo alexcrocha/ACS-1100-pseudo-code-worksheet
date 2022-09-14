@@ -24,3 +24,5 @@ FOR EACH item in the list of questions and answers
 > > DISPLAY “Current score: “ score DIVIDED by total
 >
 > END IF
+
+END FOR LOOP
