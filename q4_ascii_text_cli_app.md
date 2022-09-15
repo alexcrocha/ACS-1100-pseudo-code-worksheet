@@ -7,7 +7,7 @@ PROMPT for ASCII Art Font
 GET font
 
 IF font input is 'random'
-> REQUEST all fonts from http://artii.herokuapp.com/fonts_list
+> REQUEST all fonts from fonts list URL
 >
 > GET all fonts
 > >
@@ -15,7 +15,7 @@ IF font input is 'random'
 > >
 > > SET font to a random font from fonts list
 > >
-> > REQUEST ascii art from http://artii.herokuapp.com/make?text={**user text here**}&font{**random font here**}
+> > REQUEST ascii art from URL with user text and random font
 > >
 > > DISPLAY "Font: **user font here**"
 > >
@@ -24,7 +24,7 @@ IF font input is 'random'
 > END LOOP
 
 ELSE IF font input exists
-> REQUEST ascii art from http://artii.herokuapp.com/make?text={**user text here**}&font{**user font here**}
+> REQUEST ascii art from URL with user text and user font
 >
 > GET ascii art
 >
@@ -33,7 +33,7 @@ ELSE IF font input exists
 > DISPLAY ascii art
 
 ELSE IF there is no font input
-> REQUEST ascii art from http://artii.herokuapp.com/make?text={ user text here }
+> REQUEST ascii art from URL with user text
 >
 > GET ascii art
 >
