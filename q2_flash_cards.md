@@ -21,7 +21,7 @@ FOR EACH item in the list of questions and answers
 > ELSE
 > > DISPLAY “Incorrect! The correct answer was “ item answer
 > >
-> > DISPLAY “Current score: “ score DIVIDED by total
+> > DISPLAY “Current score: “ score DIVIDED BY total
 >
 > END IF
 
